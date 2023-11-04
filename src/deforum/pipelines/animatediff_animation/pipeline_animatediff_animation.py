@@ -337,8 +337,8 @@ class DeforumAnimateDiffPipeline(DeforumBase):
 
         film_interpolate_cls(self)
 
-        save_as_h264(self.images, f"output/video/{self.gen.batch_name}.mp4")
+        # save_as_h264(self.images, f"output/video/{self.gen.batch_name}.mp4")
 
-        self.gen.video_path = f"output/video/{self.gen.batch_name}.mp4"
+        # self.gen.video_path = f"output/video/{self.gen.batch_name}.mp4"
 
         return self.gen
